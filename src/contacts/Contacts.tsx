@@ -8,15 +8,12 @@ const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.title}>My Contacts</h2>
                 <form className={style.form}>
-                    <div><input/></div>
-                    <div><input/></div>
-                    <div><textarea></textarea></div>
-                    <input/>
-                    <input/>
-                    <textarea></textarea>
-
+                    <input  placeholder="Enter Your email"/>
+                    <input  placeholder="Enter Your phone"/>
+                    <textarea  placeholder="Enter Your message"></textarea>
                 </form>
 
+                <button>Send</button>
 
             </div>
 
