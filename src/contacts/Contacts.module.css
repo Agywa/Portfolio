@@ -1,22 +1,22 @@
-.skillsBlock{
+.contactsBlock {
     height: 100vh;
-    background-color: #6fa648;
-
+    background-color: #7548a6;
 }
 
-.skillsContainer {
+.contactsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.title{
+.title {
     background-color: #eeeef5;
 }
 
-.skills{
+.form {
     border: 1px solid;
-    width: 100%;
+    width: 30%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
 }
