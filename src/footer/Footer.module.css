@@ -1,6 +1,6 @@
 .contactsBlock {
-    height: 100vh;
-    background-color: #7548a6;
+    height: 20vh;
+    background-color: #589639;
 }
 
 .contactsContainer {
@@ -14,9 +14,9 @@
 
 .form {
     border: 1px solid;
-    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+   justify-content: space-between;
+    height: 30px;
+    width: 200px;
+    flex-wrap: wrap;
 }
