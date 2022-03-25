@@ -10,7 +10,11 @@ type WorkPropsType = {
 const Work = (props: WorkPropsType) => {
     return (
         <div className={style.work}>
-            <div className={style.icon}>{"Kartinka"}</div>
+            <div className={style.img}>
+                <div > <button>look</button></div>
+
+            </div>
+
             <h3>{props.title}</h3>
             <span>{props.description}</span>
         </div>

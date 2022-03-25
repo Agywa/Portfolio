@@ -1,9 +1,16 @@
 .contactsBlock {
-    height: 20vh;
+    height: 30vh;
     background-color: #589639;
 }
 
 .contactsContainer {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -12,11 +19,26 @@
     background-color: #eeeef5;
 }
 
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
 .form {
     border: 1px solid;
-    display: flex;
-   justify-content: space-between;
+    width: 30px;
     height: 30px;
-    width: 200px;
-    flex-wrap: wrap;
+    margin: 0 10px;
+    background-color: #3f6680;
+    justify-content: center;
+
+}
+
+.res{
+margin: 10px;
+    background-color: #f7f7f7;
 }

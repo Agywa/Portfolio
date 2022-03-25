@@ -15,9 +15,18 @@ const Skills = () => {
                     />
                     <Skill
                         title={"CSS"}
-                        description={"OOOOO CSS"}
+                        description={"OOOOO CSS "}
                     />
                     <Skill
+                        title={"React"}
+                        description={"Rect it imposible sfvbdsf sfdf df d d d d d d d d d "}
+                    /> <Skill
+                        title={"React"}
+                        description={"Rect it imposible dfdf df df d d df df dsf hj jh  hi ih i"}
+                    /> <Skill
+                        title={"React"}
+                        description={"Rect it imposible sd df jbkhb hdi ihd osn uosn jihbd sfhi bdffji "}
+                    /> <Skill
                         title={"React"}
                         description={"Rect it imposible"}
                     />

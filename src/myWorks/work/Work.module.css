@@ -1,5 +1,5 @@
 .work {
-    width: 250px;
+    width: 45%;
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,16 @@
 }
 
 .icon{
-    height: 60px;
-    width: 60px;
-    background-color: lightskyblue ;
+    height: 100%;
+    width: 100%;
+    background-color: #3f6680;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+    background-color: #ba4350;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
